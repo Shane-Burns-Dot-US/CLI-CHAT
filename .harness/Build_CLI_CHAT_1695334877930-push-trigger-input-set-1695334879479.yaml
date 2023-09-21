@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CLI_CHAT_1695334877930-push-trigger-input-set
+  identifier: Build_CLI_CHAT_1695334877930pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_CLI_CHAT_1695334877930
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
